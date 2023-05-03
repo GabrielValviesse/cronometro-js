@@ -1,0 +1,47 @@
+* {
+    margin: 0px;
+}
+
+body {
+    background-color: rgb(89, 177, 204);
+}
+
+main {
+text-align: center;
+font-family: 'Roboto Mono', monospace;
+font-weight: bolder;
+margin-bottom: 3em;
+
+}
+
+div#cronometro-img {
+    color: rgb(168, 226, 236);
+    background-image: url(cronometro1.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 430px;
+    width: 430px;
+    
+}
+
+p#timer {
+    padding-top: 6em;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 35px;
+    font-weight: bolder;
+    text-align: center;
+    margin-right: 0.5em;
+}
+
+div#buttons {
+margin: auto;
+margin-left: 6.5em;
+}
+
+footer {
+    bottom: 0;
+        position: fixed;
+        width: 90%;
+        text-align: center;
+        
+}
